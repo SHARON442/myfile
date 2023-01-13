@@ -1,0 +1,177 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body
+{background: rgb(3, 53, 70); display: flex;justify-content: center;align-items: center;min-height: 100vh;
+
+}
+.resume{
+    position: relative;width: 100%;max-width: 1000px;min-height: 1000px;background: rgb(255, 255, 255);
+    margin: 50px; display: grid;
+    grid-template-columns: 1fr 2fr;box-shadow: 0 35px 55px rgba(red, green, blue, alpha)(0,0,0,0.1);
+}
+.css-shadow{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 4px solid #eebe1f;
+    filter: drop-shadow(0 0 8px #eec718);
+}
+.resume .left
+{position: relative;
+background:#000000;
+padding: 40px;
+}
+
+.profiletext
+{position: relative;display: flex; flex-direction: column; align-items: center; padding-bottom: 20px;
+    border-bottom: 1px solid rgba(241, 199, 13, 0.993);
+
+}
+.profiletext .imgBX
+{
+    position: relative;width: 200px;height: 200px;border-radius: 50%;overflow: hidden;
+}
+.profiletext .imgBX img
+{position: absolute;top: 0;left: 0;width: 100%;height: 100%;object-fit: fill;
+}
+.profiletext h2
+{
+    color: white;font-size: 1.5em;margin-top: 20px;text-align: center;font-weight: 600;line-height: 1.4em;
+}
+.profiletext h2 span
+{
+    font-size: 0.8em;font-weight: 300;
+}
+.Contactinfo
+{
+    padding-top: 40px;
+}
+.title
+{
+    color: white;text-transform: uppercase;font-weight: 600;letter-spacing: 1px;margin-bottom: 20px;
+}
+.Contactinfo ul
+{
+    position: relative;
+}
+.Contactinfo ul li
+{position: relative;
+list-style: none;margin: 10px 0;cursor: pointer;
+}
+.Contactinfo ul li .icon
+{
+    display: inline-block;width: 10px;font-size: 18px;color:white; 
+}
+.Contactinfo ul li span
+{
+    color: white;font-weight: 300;
+}
+
+
+
+.Education
+{
+    padding-top: 40px;
+}
+.title
+{
+    color: white;text-transform: uppercase;font-weight: 600;letter-spacing: 1px;margin-bottom: 20px;
+}
+.Education ul
+{
+    position: relative;
+}
+.Education ul li
+
+.Education ul li .icon
+{
+    display: inline-block;width: 10px;font-size: 18px;color:white; 
+}
+.Education ul li 
+{
+    color: white;font-weight: 300;
+}
+.Education h5
+{color: rgb(245, 204, 20);}
+
+
+
+.language
+{
+    padding-top: 40px;
+}
+.title
+{
+    color: white;text-transform: uppercase;font-weight: 600;letter-spacing: 1px;margin-bottom: 20px;
+}
+.title1{
+    color: white;text-transform: lowercase;font-weight: 600;letter-spacing: 1px;margin-bottom: 20px;
+}
+.language ul
+{
+    position: relative;
+}
+.language ul li
+{ position: relative;
+list-style: none;margin: 10px 0;cursor: pointer;
+}
+
+.language ul li .icon
+{
+    display: inline-block;width: 10px;font-size: 18px;color:white; 
+}
+
+.language ul li 
+{
+    color: white;font-weight: 300;
+}
+.language h5
+{color: rgb(233, 195, 29);}
+
+
+
+
+
+.resume .right
+{position: relative;
+background: white;
+padding: 40px;
+}
+.About {
+   margin-bottom: 50px;margin-top: 180px;
+}
+.About:last-child {
+    margin-bottom: 0;
+}
+.Title2
+{
+    color: #003147;text-transform:uppercase;letter-spacing: 1px;margin-bottom: 10px;margin-top: -200px;
+}
+p{
+    color: #333;
+}
+.course
+{
+    padding-top: 40px;
+}
+.title3
+{
+    color: black;text-transform: uppercase;font-weight: 600;letter-spacing: 1px;margin-bottom: 20px;
+}
+.course ul
+{
+    position: relative;
+}
+.course ul li
+
+.course ul li .icon
+{
+    display: inline-block;width: 10px;font-size: 18px;color:black; 
+}
+.course ul li 
+{
+    color: black;font-weight: 300;
+}
+.course h5
+{color: black;}
